@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <fieldset>
+        <legend >SURVEY FORM</legend>
+        <div class="form-container">
+            <form id="survey-form">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" required>
+                
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" required>
+                
+                <label for="date-of-birth">Date of Birth:</label>
+                <input type="date" id="date-of-birth" required>
+                
+                <label for="country">Country:</label>
+                <select id="country" required>
+                    <option value="" disabled selected>Select your country</option>
+                    <option value="India">India</option>
+                    <option value="canada">Canada</option>
+                    <option value="Usa">Usa</option>
+                    <option value="Afganisthan">Afganisthan</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Auatralia">Auatralia</option>
+                    <option value="Newzealand">Newzealand</option>
+                    <option value="Sri Lanka">Sri lanka</option>
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Iran">Iran</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="China">China</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="Thailand">Thailand</option>
+                    <option value="UK">Uk</option>
+                    <option value="France">France</option>
+                    
+                </select>
+                
+                <label for="gen">Gender:</label>
+                <input type="radio" checked id="gen" name="gen">MALE
+                <input type="radio" checked id="gen" name="gen">FEMALE
+                <input type="radio" checked id="gen" name="gen">OTHER <BR></BR>
+    
+                
+                
+                <label for="profession">Profession:</label>
+                <input type="text" id="profession" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                
+                <label for="mobile-number">Mobile Number:</label>
+                <input type="tel" id="mobile-number" required>
+                
+                <div class="button-container">
+                    <button type="reset" id="reset-button">Reset</button>
+                    <button type="submit" id="submit-button">Submit</button>
+                </div>
+            </form>
+        </div>
+    </fieldset>
+</body>
+</html>

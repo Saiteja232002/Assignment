@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.calculator {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.display {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+input {
+    width: 80%;
+    font-size: 24px;
+    padding: 10px;
+    background-color:white;
+    color: black;
+    border: none;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: black; 
+    color: white; 
+    border: none;
+    cursor: pointer;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+.plus,.division,.multiplication,.minus{
+    background-color: gray;
+}
+.cls{
+    background-color:green;
+    width: 110px;
+}
